@@ -1,0 +1,9 @@
+html {
+    scroll-behavior: smooth;
+    background-color: blue;
+}
+div {
+    height: 500px;
+    width: auto;
+    border: 3px solid black;
+}
