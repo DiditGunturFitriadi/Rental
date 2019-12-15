@@ -31,7 +31,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenteredLabel">Daftar Akun</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close" aria-label="Close">
           <a href="index.php" style="text-decoration: none"><span aria-hidden="true">×</span></a>
         </button>
       </div>
