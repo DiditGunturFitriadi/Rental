@@ -12,14 +12,17 @@
     
 	<!-- Link costum external css-->
 	<link rel="stylesheet" href="css/style.css">
-	
+  
+  <script type="text/javascript">
+    $(window).on('load',function(){
+        $('#masuk').modal({backdrop: 'static', keyboard: false});
+    });
+  </script>
+
 </head>
 
-<body>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#masuk">
-  Masuk
-</button>
+<body class="banner">
+
 
 <!-- Modal -->
 <div class="modal " id="masuk" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableLabel" aria-hidden="true">
@@ -27,8 +30,8 @@
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalCenteredLabel">Masuk</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">×</span>
+        <button type="button" class="close" aria-label="Close">
+          <a href="index.php" style="text-decoration: none"><span aria-hidden="true">×</span></a>
         </button>
       </div>
       <div class="modal-body">
@@ -43,10 +46,9 @@
       </div>
       <div class="modal-footer">
         <div class="pull-left mr-auto"> 
-          <a data-dismiss="modal" data-toggle="modal" href="#daftar">Lupa Kata Sandi</a>
+          <a href="daftar.php">Belum Punya Akun? Daftar</a>
         </div>
         <button type="button" class="btn btn-primary">Masuk</button>
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Kembali</button>
       </div>
     </div>
   </div>
